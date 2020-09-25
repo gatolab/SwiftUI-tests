@@ -9,7 +9,7 @@ import SwiftUI
 
 struct BindingAndComponents: View {
     
-    @State private var r: Double = 0
+    @State var r: Double
     @State private var g: Double = 0
     @State private var b: Double = 0
     
@@ -31,6 +31,6 @@ struct BindingAndComponents: View {
 
 struct BindingAndComponents_Previews: PreviewProvider {
     static var previews: some View {
-        BindingAndComponents()
+        BindingAndComponents(r: 0)
     }
 }

@@ -12,13 +12,18 @@ import SwiftUI
 struct SFSymbolsTest: View {
     var body: some View {
         
-        Image(systemName: "car.fill")
-            .foregroundColor(.red)
-            .font(.largeTitle)
-            .padding()
-            .background(Color.yellow)
-            .scaleEffect(2)
-            .rotationEffect(Angle(degrees: -45))
+        VStack(alignment: .leading, spacing: 40) {
+            Image(systemName: "car.fill")
+                .foregroundColor(.red)
+                .font(.largeTitle)
+                .padding()
+                .background(Color.yellow)
+                //.scaleEffect(2)
+                //.rotationEffect(Angle(degrees: -45))
+            
+            Text("abc")
+        }
+        
     }
 }
 
