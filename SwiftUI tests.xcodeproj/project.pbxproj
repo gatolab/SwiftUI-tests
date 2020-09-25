@@ -13,6 +13,10 @@
 		BD0D16D6251D19C7005B083B /* wwoman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD0D16D5251D19C7005B083B /* wwoman.jpg */; };
 		BD0D16DA251D701F005B083B /* ButtonComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0D16D9251D701F005B083B /* ButtonComponents.swift */; };
 		BD0D16E5251D7372005B083B /* profileIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BD0D16E4251D7372005B083B /* profileIcon.png */; };
+		BD0D16EA251D861B005B083B /* StatePropertiesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0D16E9251D861B005B083B /* StatePropertiesTest.swift */; };
+		BD0D16ED251D8B8C005B083B /* SFSymbolsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0D16EC251D8B8C005B083B /* SFSymbolsTest.swift */; };
+		BD0D16F0251D957D005B083B /* SliderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0D16EF251D957D005B083B /* SliderComponent.swift */; };
+		BD62532A251D984B001B6B1E /* BindingAndComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD625329251D984B001B6B1E /* BindingAndComponents.swift */; };
 		BDE5CF4C251CEED30038AE7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE5CF4B251CEED30038AE7F /* AppDelegate.swift */; };
 		BDE5CF4E251CEED30038AE7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE5CF4D251CEED30038AE7F /* SceneDelegate.swift */; };
 		BDE5CF50251CEED30038AE7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE5CF4F251CEED30038AE7F /* ContentView.swift */; };
@@ -28,6 +32,10 @@
 		BD0D16D5251D19C7005B083B /* wwoman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wwoman.jpg; sourceTree = "<group>"; };
 		BD0D16D9251D701F005B083B /* ButtonComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonComponents.swift; sourceTree = "<group>"; };
 		BD0D16E4251D7372005B083B /* profileIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profileIcon.png; sourceTree = "<group>"; };
+		BD0D16E9251D861B005B083B /* StatePropertiesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePropertiesTest.swift; sourceTree = "<group>"; };
+		BD0D16EC251D8B8C005B083B /* SFSymbolsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolsTest.swift; sourceTree = "<group>"; };
+		BD0D16EF251D957D005B083B /* SliderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderComponent.swift; sourceTree = "<group>"; };
+		BD625329251D984B001B6B1E /* BindingAndComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingAndComponents.swift; sourceTree = "<group>"; };
 		BDE5CF48251CEED30038AE7F /* SwiftUI tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDE5CF4B251CEED30038AE7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDE5CF4D251CEED30038AE7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD0D16F2251D9587005B083B /* SingleComponents */ = {
+			isa = PBXGroup;
+			children = (
+				BD0D16EF251D957D005B083B /* SliderComponent.swift */,
+			);
+			path = SingleComponents;
+			sourceTree = "<group>";
+		};
 		BDE5CF3F251CEED30038AE7F = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +115,13 @@
 			isa = PBXGroup;
 			children = (
 				BDE5CF4F251CEED30038AE7F /* ContentView.swift */,
+				BD0D16F2251D9587005B083B /* SingleComponents */,
 				BD0D16C9251CF620005B083B /* TextComponents.swift */,
 				BD0D16D1251D1916005B083B /* ImageComponents.swift */,
 				BD0D16D9251D701F005B083B /* ButtonComponents.swift */,
+				BD0D16E9251D861B005B083B /* StatePropertiesTest.swift */,
+				BD0D16EC251D8B8C005B083B /* SFSymbolsTest.swift */,
+				BD625329251D984B001B6B1E /* BindingAndComponents.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -199,11 +219,15 @@
 			files = (
 				BD0D16CD251CF74D005B083B /* Utils.swift in Sources */,
 				BDE5CF4C251CEED30038AE7F /* AppDelegate.swift in Sources */,
+				BD0D16EA251D861B005B083B /* StatePropertiesTest.swift in Sources */,
 				BD0D16DA251D701F005B083B /* ButtonComponents.swift in Sources */,
 				BDE5CF4E251CEED30038AE7F /* SceneDelegate.swift in Sources */,
 				BD0D16D2251D1916005B083B /* ImageComponents.swift in Sources */,
+				BD0D16F0251D957D005B083B /* SliderComponent.swift in Sources */,
 				BD0D16CA251CF620005B083B /* TextComponents.swift in Sources */,
 				BDE5CF50251CEED30038AE7F /* ContentView.swift in Sources */,
+				BD0D16ED251D8B8C005B083B /* SFSymbolsTest.swift in Sources */,
+				BD62532A251D984B001B6B1E /* BindingAndComponents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
