@@ -65,6 +65,8 @@ struct NavigationViewTests: View {
                 }, label: {
                     Text("Button")
                 })
+                
+                
             }
             
         }
