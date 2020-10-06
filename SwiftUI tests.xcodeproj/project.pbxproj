@@ -19,6 +19,7 @@
 		BD3A33FD2527A1EA00465271 /* PresentViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A33FC2527A1EA00465271 /* PresentViewTest.swift */; };
 		BD3A34002527B10B00465271 /* FormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A33FF2527B10B00465271 /* FormTests.swift */; };
 		BD62532A251D984B001B6B1E /* BindingAndComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD625329251D984B001B6B1E /* BindingAndComponents.swift */; };
+		BD8068D2252CEE5600812B15 /* ScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8068D1252CEE5600812B15 /* ScrollViewTests.swift */; };
 		BD88E784251E851B006FCB7B /* ListComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD88E783251E851B006FCB7B /* ListComponent.swift */; };
 		BD88E78A251E8646006FCB7B /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD88E789251E8646006FCB7B /* Person.swift */; };
 		BDBA8025251E4EF70004F2CB /* NavigationViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBA8024251E4EF70004F2CB /* NavigationViewTests.swift */; };
@@ -44,6 +45,7 @@
 		BD3A33FC2527A1EA00465271 /* PresentViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentViewTest.swift; sourceTree = "<group>"; };
 		BD3A33FF2527B10B00465271 /* FormTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTests.swift; sourceTree = "<group>"; };
 		BD625329251D984B001B6B1E /* BindingAndComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingAndComponents.swift; sourceTree = "<group>"; };
+		BD8068D1252CEE5600812B15 /* ScrollViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewTests.swift; sourceTree = "<group>"; };
 		BD88E783251E851B006FCB7B /* ListComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListComponent.swift; sourceTree = "<group>"; };
 		BD88E789251E8646006FCB7B /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		BDBA8024251E4EF70004F2CB /* NavigationViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewTests.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				BD88E783251E851B006FCB7B /* ListComponent.swift */,
 				BD3A33FC2527A1EA00465271 /* PresentViewTest.swift */,
 				BD3A33FF2527B10B00465271 /* FormTests.swift */,
+				BD8068D1252CEE5600812B15 /* ScrollViewTests.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD0D16CD251CF74D005B083B /* Utils.swift in Sources */,
+				BD8068D2252CEE5600812B15 /* ScrollViewTests.swift in Sources */,
 				BD88E784251E851B006FCB7B /* ListComponent.swift in Sources */,
 				BDE5CF4C251CEED30038AE7F /* AppDelegate.swift in Sources */,
 				BD0D16EA251D861B005B083B /* StatePropertiesTest.swift in Sources */,
